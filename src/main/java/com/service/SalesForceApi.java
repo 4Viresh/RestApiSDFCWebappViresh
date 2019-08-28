@@ -41,11 +41,11 @@ public class SalesForceApi {
 
 	        ApiSession session = new ApiSession();
 	        config = new ApiConfig();
-	        config.setLoginEndpoint(System.getenv("LoginEndpoint"));
-	        config.setUsername(System.getenv("username"));
-	        config.setPassword(System.getenv("Password"));
-	        config.setClientId(System.getenv("ClientId"));
-	        config.setClientSecret(System.getenv("ClientSecret"));
+	        config.setLoginEndpoint("https://dev-viresh-dev-ed.my.salesforce.com");
+	        config.setUsername("viresh.dev@salesforce.com");
+	        config.setPassword("Viresh#1024jjfHRqHtjYlrvHaHaJV7e5sY");
+	        config.setClientId("3MVG9d8..z.hDcPI1Fj2keg5cw5bqFFkRxFgDv.yGgiwrZWRn2UtMuebZbYb3X9HEMaAJha4Ja1KPvte9uAJq");
+	        config.setClientSecret("6441623787008912847");
 	  
 		    
 	        forceApi = new ForceApi(config);
