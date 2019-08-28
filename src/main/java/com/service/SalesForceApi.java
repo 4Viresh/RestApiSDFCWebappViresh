@@ -1,4 +1,4 @@
-@package com.service;
+package com.service;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
